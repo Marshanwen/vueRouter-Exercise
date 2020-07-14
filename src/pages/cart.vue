@@ -1,11 +1,12 @@
 <template>
-  <div id="app">
-    <router-view></router-view>
+  <div class="hello">
+    cart 页面
   </div>
 </template>
 
 <script>
 export default {
-  name: "app"
+  name: "cart",
+  props: {}
 };
 </script>
